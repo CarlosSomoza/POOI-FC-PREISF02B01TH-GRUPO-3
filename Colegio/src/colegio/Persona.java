@@ -1,6 +1,6 @@
 package colegio;
 /**
- * @author CesarCuellar
+ * @author carlo
  */
 public class Persona {
     private String identificacion;

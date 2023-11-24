@@ -7,7 +7,7 @@ package colegio;
 
 /**
  *
- * @author CesarCuellar
+ * @author carlo
  */
 public class Colegio {
 

@@ -136,7 +136,7 @@ public class FrmAgregarCurso extends javax.swing.JFrame {
                             .addComponent(cbDocente, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(btnAgregar)
-                        .addGap(34, 34, 34)
+                        .addGap(55, 55, 55)
                         .addComponent(btnRegresar)
                         .addGap(56, 56, 56)))
                 .addContainerGap(38, Short.MAX_VALUE))

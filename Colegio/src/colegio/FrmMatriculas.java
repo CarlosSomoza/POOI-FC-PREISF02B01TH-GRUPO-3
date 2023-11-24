@@ -1,4 +1,4 @@
-/*
+    /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -73,6 +73,11 @@ public class FrmMatriculas extends javax.swing.JFrame {
         cbCursos.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
         cbAlumno.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        cbAlumno.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cbAlumnoActionPerformed(evt);
+            }
+        });
 
         btnRegresar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/colegio/Imagenes/exit1.png"))); // NOI18N
         btnRegresar.addActionListener(new java.awt.event.ActionListener() {
@@ -176,6 +181,10 @@ public class FrmMatriculas extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Ya existe el mismo alumno matriculado en el mismo curso");  
         }
     }//GEN-LAST:event_btnAgregarActionPerformed
+
+    private void cbAlumnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbAlumnoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cbAlumnoActionPerformed
 
     /**
      * @param args the command line arguments

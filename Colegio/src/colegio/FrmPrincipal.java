@@ -43,6 +43,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMCAgregar = new javax.swing.JMenuItem();
         jMCListar = new javax.swing.JMenuItem();
         jMMatriculas = new javax.swing.JMenu();
+        jMMAgregar = new javax.swing.JMenuItem();
         jMenu1 = new javax.swing.JMenu();
         jMSalir = new javax.swing.JMenuItem();
 
@@ -76,7 +77,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         });
         jMAlumnos.add(jMAConsultar);
 
-        jMAListar.setText("Listar");
+        jMAListar.setText("Lista");
         jMAListar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMAListarActionPerformed(evt);
@@ -130,6 +131,15 @@ public class FrmPrincipal extends javax.swing.JFrame {
 
         jMMatriculas.setText("Matriculas");
         jMMatriculas.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+
+        jMMAgregar.setText("Agregar");
+        jMMAgregar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMMAgregarActionPerformed(evt);
+            }
+        });
+        jMMatriculas.add(jMMAgregar);
+
         jMenuBar1.add(jMMatriculas);
 
         jMenu1.setText("Cerrar");
@@ -213,8 +223,15 @@ public class FrmPrincipal extends javax.swing.JFrame {
      int confirmado = JOptionPane.showConfirmDialog(null, "Está seguro de Salir");
      if (JOptionPane.OK_OPTION==confirmado){
          System.exit(0);
+         
      }
     }//GEN-LAST:event_jMSalirActionPerformed
+
+    private void jMMAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMMAgregarActionPerformed
+        // TODO add your handling code here:
+        FrmMatriculas frm = new FrmMatriculas();
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMMAgregarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -262,6 +279,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenu jMCursos;
     private javax.swing.JMenuItem jMDListar;
     private javax.swing.JMenu jMDocentes;
+    private javax.swing.JMenuItem jMMAgregar;
     private javax.swing.JMenu jMMatriculas;
     private javax.swing.JMenuItem jMSalir;
     private javax.swing.JMenu jMenu1;

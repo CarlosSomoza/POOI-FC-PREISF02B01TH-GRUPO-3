@@ -1,6 +1,6 @@
 package colegio;
 /**
- * @author CesarCuellar
+ * @author carlo
  */
 public class Docente extends Persona {    
     private String Profesion;

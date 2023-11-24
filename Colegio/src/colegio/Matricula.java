@@ -2,7 +2,7 @@ package colegio;
 import java.util.Date;
 
 /**
- * @author CesarCuellar
+ * @author carlo
  */
 public class Matricula {
     private Curso unCurso;

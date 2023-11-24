@@ -1,8 +1,6 @@
 package colegio;
 import java.util.ArrayList;
-/**
- * @author CesarCuellar
- */
+
 public class GestionColegio {
     public static ArrayList<Alumno> listaAlumnos = new ArrayList<>();
     public static ArrayList<Docente> listaDocentes = new ArrayList<>();
